@@ -1,0 +1,575 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    position: relative;
+    background-image: url("../assets/images/bg.jpg");
+    height: 644px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px, 100vw);
+
+
+}
+
+.main .box {
+    height: 644px;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    position: absolute;
+    top: 0px;
+}
+
+nav {
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 1900px;
+
+}
+
+nav img {
+    color: red;
+    width: 140px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+    padding: 10px 20px;
+}
+.bt{
+    background-color: black;
+    opacity: 0.7;
+    width: 120px;
+    height: 30px;
+}
+nav button  {
+    z-index: 20;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    padding: 3px 8px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    background-color: transparent;
+    position: relative;
+    height: 30px;
+    font-weight: bold;
+
+}
+
+nav .btn {
+    background-color: red;
+    border: none;
+}
+
+
+/* hero division */
+
+
+.hero {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0px 30px;
+
+}
+
+.s1 {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.s2 {
+    font: weight 700px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.s3 {
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+.b1 {
+    font-family: "Martel Sans", sans-serif;
+    padding-left: 20px;
+    border: 1px solid white;
+    z-index: 20;
+    height: 50px;
+    width: 350px;
+    border-radius: 4px;
+    z-index: 30;
+    color: white;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 700;
+
+}
+
+.b1 {
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+
+}
+
+.b2 {
+    font-family: "Martel Sans", sans-serif;
+
+    color: white;
+    border-radius: 4px;
+  background-color: rgb(225, 0, 0);
+    height: 50px;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 22px;
+    font-weight:bold;
+
+}
+
+.b2:hover {
+    cursor: pointer;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(105, 105, 105);
+}
+
+.first
+{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box1{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100px;
+    width: 1200px;
+    color: white;
+   background-color: rgb(65, 0, 53);
+   border-radius: 15px;
+
+
+}
+.box1:hover{
+    background-color: rgb(82, 0, 67);
+    width: 1210px;
+    height: 110px;
+    transition-duration: 0.5s;
+}
+.box1 .b11 {
+    text-align: left;
+    padding-left: 20px;
+
+}
+.box1 .b12 {
+    text-align: left;
+    padding-left: 20px;
+
+}
+.b11{
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "Martel Sans", sans-serif;
+}
+.b12{
+    font-size: 20px;
+    font-family: "Martel Sans", sans-serif;
+
+}
+
+
+
+/* trending page  */
+.trendingnow{
+    display: flex;
+    height: 500px;
+    width: 94%;
+    overflow:visible;
+    padding-left: 80px;
+    flex-direction: column;
+
+       
+
+}
+
+.t-heading{
+
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Martel Sans", sans-serif;
+}
+
+.sel{
+   
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    align-content: left;
+    width: 500px;
+    height: 50px;
+    
+   
+}
+
+.sel #movie{
+    height: 40px;
+    color: white;
+    width: 150px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: medium;   
+    background-color: rgb(16, 16, 16);
+    opacity: 0.8;
+    z-index: -1;
+    border-radius: 5px;
+    border:3px solid white;
+
+}
+.sel #movie:hover{
+    cursor: pointer;
+}
+.sel #counrty{
+    height: 40px;
+    color: white;
+    width: 150px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: medium;   
+    background-color: rgb(16, 16, 16);
+    opacity: 0.8;
+    z-index: -1;
+    border-radius: 5px;
+    border:3px solid white;
+
+}
+
+.sel counrty:hover{
+    cursor: pointer;
+
+}
+.recommendations{
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    position: absolute;
+    height: 300px;
+    width: 90%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    }
+.recommendations .r1 img {
+    height: 270px;
+    width: 180px;
+    padding: 20px;   
+}
+.recommendations .r1 img:hover{
+    cursor: pointer;
+    height: 290px ;
+    width:190px ;
+    transition: 0.5s;
+}
+
+
+/* third section  */
+
+.third{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    flex-direction: row;
+    
+}
+
+.third .t1{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 400px;
+    color: white;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.t11{
+    font-family: "Martel Sans", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.t12{
+    font-family:"poppins", "Martel Sans", sans-serif;
+    
+    font-size: 30px;
+
+}
+
+.t21{
+    display: flex;
+    width: 550px;
+    height: 400px;
+    margin-right: 100px;
+}
+
+
+
+
+
+.t3{
+   
+    display: flex;
+    height: 500px;
+    width: 94%;
+    overflow:visible;
+    padding-left: 80px;
+    position: relative;
+}
+.head{
+   
+    margin-top: 30px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: "Martel Sans", sans-serif;
+    padding: 10px;
+}
+
+.t333{
+
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+    position: absolute;
+    height: 300px;
+    width: 90%;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.t31{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin: 30px 10px;
+    color: white;
+    padding : 20px 20px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+
+}
+.t31 { 
+    background: linear-gradient(to right bottom, #000036,#00004a, #8B0000);
+    background: -webkit-linear-gradient(to right bottom,#00008B, #8B0000);
+    background: -moz-linear-gradient(to right bottom,#00008B, #8B0000);
+    background: -o-linear-gradient(to right bottom, #00008B, #8B0000);
+    background: -ms-linear-gradient(to right bottom, #00008B, #8B0000);
+}
+
+
+
+
+
+/* faq section  */
+.faq{
+    display: flex;
+    height: 700px;
+    width: 99%;
+    justify-content:flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+.faq-heading{
+    margin-top: 30px;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-direction: column;
+    font-family: "Martel Sans", sans-serif;
+    padding-left: 80px;  
+}
+
+.faq-box{
+    margin-top: 20px;
+    display: flex;
+    width: 99%;
+    height: 100%;
+    flex-direction: column;   
+    /* justify-content: center; */
+    align-items: center;
+    align-content: center;
+
+}
+.f1{
+    padding-left: 20px;
+    padding-top: 25px;
+    margin-top: 20px;   
+    text-align: left;
+    color: white;
+    width: 1310px;
+    height: 55px;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 1.5rem;
+    background-color: rgb(55, 55, 55);
+
+}
+.f1:hover{
+    background-color: rgb(93, 93, 93);
+    cursor: pointer;
+}
+
+
+
+
+
+/* lasr section   */
+
+.l1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.l1 input{
+    margin-left: 75px;
+    padding: 12px 12px;
+    
+    text-align: left;
+    color: white;
+    width: 750px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 1rem;
+    background-color: rgb(30, 30, 30);opacity: 0.8;
+    
+}
+
+.l2{
+    color: rgb(184, 184, 184);
+    margin-left: 100px;
+    margin-top: 40px;
+    font-family: "Martel Sans", sans-serif;
+    
+}
+.l2 a{
+    color: rgb(184, 184, 184);
+
+}
+.l2 a hover{
+    cursor: pointer;
+
+
+
+}
+
+
+
+.verylast{
+    display: flex;
+   width: 1310px;
+    margin-left: 75px;
+    margin-top: 75px;
+    height: 300px;
+    flex-direction: row; 
+    gap: 100px; 
+    padding: 30px 0px;
+    list-style: none;
+
+}
+
+
+.vl1{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+.vl1 a{
+    color: rgb(184, 184, 184);}
+
+.vl2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 75px;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(42, 42, 42);
+    opacity: 0.8;
+    cursor: pointer;
+
+}
+.bye
+{
+    font-family: "Martel Sans", sans-serif;
+
+    color: white;
+    padding: 50px 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
