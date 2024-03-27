@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS transitions</title>
+    <style>
+        .container {
+            display: flex;
+            background-color: brown;
+
+        }
+
+        #box {
+            display: flex;
+            height: 200px;
+            width: 200px;
+            background-color: yellow;
+            justify-content: center;
+            align-items: center;
+            transition: all 4s ease-in-out 0.5s;
+           
+        }
+
+        #box:hover {
+            cursor: pointer;
+            background-color: hotpink;
+            width: 400px;
+            height: 400px;
+            border-radius: 150px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <h1>this is about css transitions</h1>
+    <div class="container">
+        <div id="box">this is my box</div>
+
+    </div>
+
+</body>
+
+</html>

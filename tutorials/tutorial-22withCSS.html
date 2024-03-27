@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child pseudo selectors</title>
+    <style>
+        .container {
+            display: block;
+            background-color: aqua;
+            width: 230px;
+            margin: auto;
+        }
+
+        input {
+            display: block;
+        }
+
+        input[type='text'] {
+            padding: 23px;
+            border: 2px solid red;
+
+
+        }
+
+        input[target] {
+            font-size: large;
+            color: black;
+
+        }
+
+        li:nth-child(2) {
+            color: brown;
+        }
+
+        li:nth-child(2n+0) {
+            color: brown;
+        }
+
+        li:nth-child(even) {
+            color: grey;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1><a href="https://google.com"> this is google page</a></h1>
+        <form action="no.php" class="formcontrol">
+            <input type="text" name="" id="" placeholder="enter name">
+            <input type="password" name="" id="" placeholder="enter passsword">
+            <input type="button" value="submit">
+        </form>
+        <ul>
+            <li class="item" id="item1">first</li>
+            <li class="item" id="item2">second</li>
+            <li class="item" id="item3">third</li>
+            <li class="item" id="item4">fourth</li>
+        </ul>
+
+    </div>
+
+</body>
+
+</html>
